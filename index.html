@@ -3,7 +3,7 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico"/>
-		<style>body {padding: 0;margin: 0;}            h1 {            font-family: Arial, Helvetica, sans-serif;            color: #152a47;            font-size: 32px;            padding: 0 20px 0 20px;        }                h2 {            font-family: Arial, Helvetica, sans-serif;            color: #152a47;            font-size: 26px;                    padding: 30px 20px 0 20px;        }        h3 {            font-family: Arial, Helvetica, sans-serif;            color: #152a47;            font-size: 22px;            padding: 20px 20px 0 20px;        }        p {            font-family: Georgia, 'Times New Roman', Times, serif;            color: #152a47;            font-size: 16px;            padding: 0 20px 0 20px;            text-align: justify;        }        pre {            padding: 30px;        }        pre code {            background: #f4f5f6;            display: block;            text-align: center;            padding: 20px;        }            #logo-link {        width: 50px;        display: block;        float: left;    }        .logo .logo-row .logo-block {        float: left;            width: 10px;        height: 10px;    }        .logo .logo-row::after {        content: " ";        display: block;        clear: both;    }        .logo .logo-row .logo-block.dark{        background: #24acf8;    }    .logo .top-left {        border-top-left-radius: 10px;    }    .logo .top-right {        border-top-right-radius: 10px;    }    .logo .bottom-left {        border-bottom-left-radius: 10px;    }    .logo .bottom-right {        border-bottom-right-radius: 10px;    }    main {width: 800px;max-width: 100%;margin: 0 auto;}table {margin: 0 auto;max-width: 100%;border-collapse: collapse;border: 1px solid #152a47;}tr td:first-child, th {border: none;}td {border: 1px solid #152a47;}th,td {font-size: 16px;text-align: center;}td strong {display: block;background: #b5dfca;}td em {display: block;background: #dfb5ca;}@media screen and (max-width: 600px) {th,td {font-size: 14px;}}@media screen and (max-width: 400px) {th,td {font-size: 11px;}}#hero {padding-top: 50px;padding-bottom: 50px;text-align: center;border-bottom: 1px dotted #24acf8;    }        .canvas-wrapper {        padding-left: 20px;        padding-right: 20px;    }#hero p {text-align: center;}#nav {position: sticky;top: 0;background: #ffffff;padding: 20px;border-bottom: 1px dotted #24acf8;}#nav nav {width: 800px;max-width: 100%;margin: 0 auto;}#nav nav:after {content: " ";display: block;clear: both;}footer {padding: 20px;background:#152a47;color: #ffffff;text-align: center;}#donate {padding: 50px;}#donate form {margin: 0 auto;width: 147px;}#signup-button {float: right;}</style>
+		<style>body {padding: 0;margin: 0;}            body {            line-height: 1.5;        }                h1 {            font-family: Arial, Helvetica, sans-serif;            color: #152a47;            font-size: 32px;            padding: 0 20px 0 20px;        }                h2 {            font-family: Arial, Helvetica, sans-serif;            color: #152a47;            font-size: 26px;                    padding: 30px 20px 0 20px;        }        h3 {            font-family: Arial, Helvetica, sans-serif;            color: #152a47;            font-size: 22px;            padding: 20px 20px 0 20px;        }        p {            font-family: Georgia, 'Times New Roman', Times, serif;            color: #152a47;            font-size: 16px;            padding: 0 20px 0 20px;            text-align: justify;        }        pre {            padding: 30px;        }        pre code {            background: #f4f5f6;            display: block;            text-align: center;            padding: 20px;        }            #logo-link {        width: 50px;        display: block;margin: auto;transition: 1s transform;}#logo-link:hover {transform: rotate(-90deg);}        .logo .logo-row .logo-block {        float: left;            width: 10px;        height: 10px;    }        .logo .logo-row::after {        content: " ";        display: block;        clear: both;    }        .logo .logo-row .logo-block.dark{        background: #24acf8;    }    .logo .top-left {        border-top-left-radius: 10px;    }    .logo .top-right {        border-top-right-radius: 10px;    }    .logo .bottom-left {        border-bottom-left-radius: 10px;    }    .logo .bottom-right {        border-bottom-right-radius: 10px;    }    main {width: 800px;max-width: 100%;margin: 0 auto;}table {margin: 0 auto;max-width: 100%;border-collapse: collapse;border: 1px solid #152a47;}tr td:first-child, th {border: none;}td {border: 1px dotted #152a47;}th,td {font-size: 16px;text-align: center;}td strong {display: block;background: #b5dfca;}td em {display: block;background: #dfb5ca;}#comparision-table ~ table td strong {background: #b5dfca;font-weight: normal;}#comparision-table ~ table td em {background: #24acf8;font-style: normal;}@media screen and (max-width: 600px) {th,td {font-size: 14px;}}@media screen and (max-width: 400px) {th,td {font-size: 11px;}}#hero {padding-top: 50px;padding-bottom: 50px;text-align: center;border-bottom: 1px dotted #24acf8;    }        .canvas-wrapper {        padding-left: 20px;        padding-right: 20px;    }#hero p {text-align: center;}#nav {position: sticky;top: 0;background: #ffffff;padding: 20px;border-bottom: 1px dotted #24acf8;}#nav nav {width: 800px;max-width: 100%;margin: 0 auto;}#nav nav:after {content: " ";display: block;clear: both;}footer {padding: 20px;background:#152a47;color: #ffffff;text-align: center;}#share-section {background: #b5dfca;margin-top: 20px;margin-bottom: 20px;padding-top: 10px;padding-bottom: 10px;}#share-section iframe {display: block;margin: auto;}#donate {padding: 50px;}#donate form {margin: 0 auto;width: 147px;}#signup-button {float: right;}</style>
 		<meta name="robots" content="noindex">
 
 		<script src="./lib/Chart.min.js"></script>
@@ -72,6 +72,11 @@
 <h2 id="howtoevaluateanexitscenario">How to Evaluate an Exit-Scenario</h2>
 <p>You might think that the most important thing to take into consideration when you decide to accept an investment are the amount of <strong>capital</strong> and the <strong>shares</strong> you give up in exchange. They are very important indeed, but besides those, it's really, really important to take into account their <strong>yield expectation</strong> (which is similar to paying an interest for them) and even more importantly if they offer <strong>catch-up</strong> or not.</p>
 <p>When you sell the whole company, the following things happen in the following order:</p>
+<ul>
+<li>Payout 1: Capital + yield expectation</li>
+<li>Payout 2: Catch-up (optional)</li>
+<li>Payout 3: Shares</li>
+</ul>
 <h3 id="payout1capitalplusyieldexpectation">Payout 1: Capital Plus Yield Expectation</h3>
 <p>First of all, the investor will get back the <strong>capital plus the yield expectation</strong> accumulated throughtout the years. It means that the later you sell the company, the more interest they will get. For example, let's say that the investor puts $1 million in your company with 20% interest rate. Let's say that you sell the whole company after 3 years. In this case, the investor will get $1M * 1.2^3 = $1.728M even before taking the amount of shares into account. It means, that even before taking shares into account, they will get $728.000 more back than the amount they put in. This is the exponential part of the equation. The later you sell the company, the more yield the investor will get:</p>
 <div class="canvas-wrapper"><canvas id="yield-expectation"></canvas></div>
@@ -104,7 +109,7 @@ IS: Investor Shares
 Itt megmutatni, hogy a cégérték és a befektető elvárásának különbsége az pont a catch-up
 -->
 <p>It works in the following way: let's say that X is the amount of the capital plus interest, the investor holds 20% of the shares, and you sold your company for Y. At this stage the founders will get the catch-up, that is based on X and proportional to the ratio of the investor's and the founders' shares. In this example, the founders hold 80% of the shares, that means they have four times more shares than the investor. It means, that they will get $1.728M * 4 = $6.912M.</p>
-<p>After all of this, try to think with an investor's head. If you sell the company for more than the capital plus yield expectation BUT less than the expected company value, then the investor will get the same amont of money, even though there can be huge differences for you due to the catch-up mechanism. It means, they will not be motivated to sell the company for more, because they will not get more. The only case they get more is if you can sell the company for more than the expected company value!</p>
+<p>After all of this, try to think with an <strong>investor's head</strong>. If you sell the company for more than the capital plus yield expectation BUT less than the expected company value, then the investor will get the same amont of money, even though there can be huge differences for you due to the catch-up mechanism. It means, they will not be motivated to sell the company for more, because they will not get more. <strong>The only case they get more is if you can sell the company for more than the expected company value!</strong></p>
 <h3 id="payout3shares">Payout 3: Shares</h3>
 <p>Finally, if there's any money left, then every shareholder gets the money from the remaining based on the amount of <strong>shares</strong> they hold. Again, it only happens, if you can sell the company for more than the - previously described - expected company value.</p>
 <h2 id="exampleexitscenarios">Example Exit-Scenarios</h2>
@@ -274,37 +279,347 @@ Itt megmutatni, hogy a cégérték és a befektető elvárásának különbsége
 </tr>
 </tbody>
 </table>
-<p>In the matrix above, you can see <strong>one hundred</strong> different exit-scenarios. I highlighted with a greenish color those scenarios in which the founders get exactly the amount of money as if the exit money was split based on the shares only. (Those are the optimal scenarios for founders.) Also, the red cells show those cases in which the founders get nothing.</p>
-<p>You can also create this kind of matrix for the investors, but more importantly you can create these matrices for multiple investors. If you substract those matrices, you will see <strong>which investor's offer is better in more scenarios!</strong></p>
-<h2 id="bootstrappingvsinvestmenttodo">Bootstrapping vs Investment TODO</h2>
-<p>Mit tudsz kihozni investment nélkül. Mennyi időbe tellik. Mekkora szabadságod lesz úgy. Meg tudod-e csinálni amit szeretnél. Eléred-e a céljaidat investorok nélkül?</p>
-<p>És végül… mennyi marad a zsebedben egy exit esetén. Egyáltalán lehetséges-e úgy az exit? Milyen növekedést tudsz elérni befektetéssel és anélkül?</p>
-<p>Ha van egy alátámasztható hipotézised, hogy milyen mértékben tudod növelni a buisnessed befektetés nélkül, az egy remek összehasonlítási alap arra, hogy döntést tudj hozni arról, hogy egyáltalán szeretnél-e tőkét bevonni.</p>
-<p>Érdemes megnézni azt is, hogy lineáris v exponenciális növekedést tudsz-e elérni. Megnézni azt, hogy lineáris növekedés esetén mikor éri meg az exponenciális elvárásokkal rendelkező befektető. Olyan esetben mikor optimális az exit?</p>
-<div class="canvas-wrapper"><canvas id="linear-growth"></canvas></div>
-<div class="canvas-wrapper"><canvas id="linear-growth-profit"></canvas></div>
-<!--
-TODO: itt visszatérni az exponencialitáshoz és felvetni azt is, hogy ha nem exponenciális, hanem lineáris növekedést jósolsz, akkor nem éri meg a befektetés.
-+ ha csak befektetéssel lehetséges a projekt, és lineáris növekedést várnak, akkor mikor hogy éri meg...
--->
-<!-- Összehasonlító mátrix a bootstrappinggel, bár, itt lehet, hogy egyszerűbb ábrát is lehet, pl amit fent csináltam -->
-<h2 id="multipleinvestorstodo">Multiple investors TODO</h2>
-<p>Az egyik az "investors" kategória, a másik pedig, hogy megvan a capital + yield expectation kifizetések sorrendje.</p>
-<!-- ezt csak nagyon röviden kéne leírni először... -->
-<h2 id="aproductideatodo">A Product Idea TODO</h2>
-<p>Donate and I will send you an analysis. Yo.</p>
-			<section id="donate">
-			<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-    <input type="hidden" name="cmd" value="_donations" />
-    <input type="hidden" name="business" value="EPW7UWHSAYPCG" />
-    <input type="hidden" name="currency_code" value="USD" />
-    <input type="hidden" name="amount" value="50" />
-    <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
-    <img alt="" border="0" src="https://www.paypal.com/en_HU/i/scr/pixel.gif" width="1" height="1" />
-    </form>
+<p>In the matrix above, you can see <strong>one hundred</strong> different exit-scenarios. I highlighted with a greenish color those scenarios in which the founders get exactly the amount of money as if the exit money was split based on the shares only. (Those are the optimal scenarios for founders, meaning, that they get the maximum possible amount from the exit value.) Also, the red cells show those cases in which the founders get nothing.</p>
+<p>You can also create this kind of matrix for the investors, but more importantly you can create these matrices for <strong>multiple investment offers</strong>. If you substract those matrices, you will see <strong>which investor's offer is better in more scenarios!</strong></p>
+<h2 id="comparinginvestorsbysubstractingexitscenariomatrices">Comparing Investors by Substracting Exit-Scenario Matrices</h2>
+<p>In the example above, the investor has 20% of the shares and their yield expectation is 20% as well.</p>
+<p>Let's see the matrix with another investor that has only 10% of the shares, but their yield expectation is 30%.</p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>$1M</th>
+<th>$2M</th>
+<th>$3M</th>
+<th>$4M</th>
+<th>$5M</th>
+<th>$6M</th>
+<th>$7M</th>
+<th>$8M</th>
+<th>$9M</th>
+<th>$10M</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Y1</td>
+<td><em>0.00</em></td>
+<td>0.70</td>
+<td>1.70</td>
+<td>2.70</td>
+<td>3.70</td>
+<td>4.70</td>
+<td>5.70</td>
+<td>6.70</td>
+<td>7.70</td>
+<td>8.70</td>
+</tr>
+<tr>
+<td>Y2</td>
+<td><em>0.00</em></td>
+<td>0.31</td>
+<td>1.31</td>
+<td>2.31</td>
+<td>3.31</td>
+<td>4.31</td>
+<td>5.31</td>
+<td>6.31</td>
+<td>7.31</td>
+<td>8.31</td>
+</tr>
+<tr>
+<td>Y3</td>
+<td><em>0.00</em></td>
+<td><em>0.00</em></td>
+<td>0.80</td>
+<td>1.80</td>
+<td>2.80</td>
+<td>3.80</td>
+<td>4.80</td>
+<td>5.80</td>
+<td>6.80</td>
+<td>7.80</td>
+</tr>
+<tr>
+<td>Y4</td>
+<td><em>0.00</em></td>
+<td><em>0.00</em></td>
+<td>0.14</td>
+<td>1.14</td>
+<td>2.14</td>
+<td>3.14</td>
+<td>4.14</td>
+<td>5.14</td>
+<td>6.14</td>
+<td>7.14</td>
+</tr>
+<tr>
+<td>Y5</td>
+<td><em>0.00</em></td>
+<td><em>0.00</em></td>
+<td><em>0.00</em></td>
+<td>0.28</td>
+<td>1.28</td>
+<td>2.28</td>
+<td>3.28</td>
+<td>4.28</td>
+<td>5.28</td>
+<td>6.28</td>
+</tr>
+<tr>
+<td>Y6</td>
+<td><em>0.00</em></td>
+<td><em>0.00</em></td>
+<td><em>0.00</em></td>
+<td><em>0.00</em></td>
+<td>0.17</td>
+<td>1.17</td>
+<td>2.17</td>
+<td>3.17</td>
+<td>4.17</td>
+<td>5.17</td>
+</tr>
+<tr>
+<td>Y7</td>
+<td><em>0.00</em></td>
+<td><em>0.00</em></td>
+<td><em>0.00</em></td>
+<td><em>0.00</em></td>
+<td><em>0.00</em></td>
+<td><em>0.00</em></td>
+<td>0.73</td>
+<td>1.73</td>
+<td>2.73</td>
+<td>3.73</td>
+</tr>
+<tr>
+<td>Y8</td>
+<td><em>0.00</em></td>
+<td><em>0.00</em></td>
+<td><em>0.00</em></td>
+<td><em>0.00</em></td>
+<td><em>0.00</em></td>
+<td><em>0.00</em></td>
+<td><em>0.00</em></td>
+<td><em>0.00</em></td>
+<td>0.84</td>
+<td>1.84</td>
+</tr>
+<tr>
+<td>Y9</td>
+<td><em>0.00</em></td>
+<td><em>0.00</em></td>
+<td><em>0.00</em></td>
+<td><em>0.00</em></td>
+<td><em>0.00</em></td>
+<td><em>0.00</em></td>
+<td><em>0.00</em></td>
+<td><em>0.00</em></td>
+<td><em>0.00</em></td>
+<td><em>0.00</em></td>
+</tr>
+<tr>
+<td>Y10</td>
+<td><em>0.00</em></td>
+<td><em>0.00</em></td>
+<td><em>0.00</em></td>
+<td><em>0.00</em></td>
+<td><em>0.00</em></td>
+<td><em>0.00</em></td>
+<td><em>0.00</em></td>
+<td><em>0.00</em></td>
+<td><em>0.00</em></td>
+<td><em>0.00</em></td>
+</tr>
+</tbody>
+</table>
+<p>As you can see above, in this scenario, the money ending up in your pocket never reached the level that you would get if only the amount of shares were considered.</p>
+<p>If we substract this matrix from the previous one, then we get:</p>
+<div id="comparision-table"></div>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>$1M</th>
+<th>$2M</th>
+<th>$3M</th>
+<th>$4M</th>
+<th>$5M</th>
+<th>$6M</th>
+<th>$7M</th>
+<th>$8M</th>
+<th>$9M</th>
+<th>$10M</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Y1</td>
+<td>0.00</td>
+<td><em>0.10</em></td>
+<td><em>0.10</em></td>
+<td><em>0.10</em></td>
+<td><em>0.10</em></td>
+<td><em>0.10</em></td>
+<td><strong>-0.10</strong></td>
+<td><strong>-0.30</strong></td>
+<td><strong>-0.50</strong></td>
+<td><strong>-0.70</strong></td>
+</tr>
+<tr>
+<td>Y1</td>
+<td>0.00</td>
+<td><em>0.25</em></td>
+<td><em>0.25</em></td>
+<td><em>0.25</em></td>
+<td><em>0.25</em></td>
+<td><em>0.25</em></td>
+<td><em>0.25</em></td>
+<td><em>0.09</em></td>
+<td><strong>-0.11</strong></td>
+<td><strong>-0.31</strong></td>
+</tr>
+<tr>
+<td>Y1</td>
+<td>0.00</td>
+<td><em>0.272</em></td>
+<td><em>0.47</em></td>
+<td><em>0.47</em></td>
+<td><em>0.47</em></td>
+<td><em>0.47</em></td>
+<td><em>0.47</em></td>
+<td><em>0.47</em></td>
+<td><em>0.39</em></td>
+<td><em>0.19</em></td>
+</tr>
+<tr>
+<td>Y1</td>
+<td>0.00</td>
+<td>0.00</td>
+<td><em>0.78</em></td>
+<td><em>0.78</em></td>
+<td><em>0.78</em></td>
+<td><em>0.78</em></td>
+<td><em>0.78</em></td>
+<td><em>0.78</em></td>
+<td><em>0.78</em></td>
+<td><em>0.78</em></td>
+</tr>
+<tr>
+<td>Y1</td>
+<td>0.00</td>
+<td>0.00</td>
+<td><em>0.51</em></td>
+<td><em>1.22</em></td>
+<td><em>1.22</em></td>
+<td><em>1.22</em></td>
+<td><em>1.22</em></td>
+<td><em>1.22</em></td>
+<td><em>1.22</em></td>
+<td><em>1.22</em></td>
+</tr>
+<tr>
+<td>Y1</td>
+<td>0.00</td>
+<td>0.00</td>
+<td><em>0.014</em></td>
+<td><em>1.014</em></td>
+<td><em>1.84</em></td>
+<td><em>1.84</em></td>
+<td><em>1.84</em></td>
+<td><em>1.84</em></td>
+<td><em>1.84</em></td>
+<td><em>1.84</em></td>
+</tr>
+<tr>
+<td>Y1</td>
+<td>0.00</td>
+<td>0.00</td>
+<td>0.00</td>
+<td><em>0.42</em></td>
+<td><em>1.42</em></td>
+<td><em>2.42</em></td>
+<td><em>2.69</em></td>
+<td><em>2.69</em></td>
+<td><em>2.69</em></td>
+<td><em>2.69</em></td>
+</tr>
+<tr>
+<td>Y1</td>
+<td>0.00</td>
+<td>0.00</td>
+<td>0.00</td>
+<td>0.00</td>
+<td><em>0.70</em></td>
+<td><em>1.70</em></td>
+<td><em>2.70</em></td>
+<td><em>3.70</em></td>
+<td><em>3.85</em></td>
+<td><em>3.85</em></td>
+</tr>
+<tr>
+<td>Y1</td>
+<td>0.00</td>
+<td>0.00</td>
+<td>0.00</td>
+<td>0.00</td>
+<td>0.00</td>
+<td><em>0.84</em></td>
+<td><em>1.84</em></td>
+<td><em>2.84</em></td>
+<td><em>3.84</em></td>
+<td><em>4.84</em></td>
+</tr>
+<tr>
+<td>Y1</td>
+<td>0.00</td>
+<td>0.00</td>
+<td>0.00</td>
+<td>0.00</td>
+<td>0.00</td>
+<td>0.00</td>
+<td><em>0.81</em></td>
+<td><em>1.81</em></td>
+<td><em>2.81</em></td>
+<td><em>3.81</em></td>
+</tr>
+</tbody>
+</table>
+<p>Positive numbers show the cases in which the first investor's offer is better, whereas negative numbers identicate that in those scenarios, the second investor's offer is better. Zeros show that the offers are equally good in those cases. (Most of the cases it means, that you end up with nothing in both cases.)</p>
+<p>You might be surprised to see that the first investor's offer means more money in your pocket in 67 scenarios out of 100 (highlighted with blue), whereas the second investor's offer is only better in 6 scenarios (highlighted with green). (The remaining 27 scenarios are equally good for you, because you end up with nothing.) So for example if the number in a cell is -0.3, it means that you get 0.3 more from the second investor in that case, and if its let's say 0.1 it means you get that much more from the first investor in that case.</p>
+<p>If you think about it, it means that less percentage of the shares with more yield expectation is only benefitial if you can sell the company for a LOT of money very, very quickly. If you need more time to build your company, you should lower the yield expectation as much as you can, because that is the exponential part of the equation.</p>
+<p><strong>Showing a comparision matrix like this to your potential investor is a very, very good way to bargain better conditions.</strong></p>
+			<section id="share-section">
+				<p>
+					Ok, here comes the deal... I'm thinking about writing an application that does all of these for you. It could save you even millions of US dollars.
+				</p>
+				<p>
+					Would you be interested in using it? Do you think it's worth paying for it? Please share your thoughts on Twitter:
+				</p>
+				<a class="twitter-share-button"
+					href="https://twitter.com/intent/tweet?url=https%3A%2F%2Finvestorevaluation.com&text=AtomAnti&hashtags=investorevaluation,startups,buildinpublic&via=gyulanemeth85"
+					data-size="large">
+					Tweet
+				</a>
 			</section>
 		</main>
-		<footer>© 2020 investorevaluaton.com All rights reserved.</footer>
+		<footer>© 2023 investorevaluaton.com All rights reserved.</footer>
 		<script src="./main.js"></script>
+		<script>window.twttr = (function(d, s, id) {
+			var js, fjs = d.getElementsByTagName(s)[0],
+			  t = window.twttr || {};
+			if (d.getElementById(id)) return t;
+			js = d.createElement(s);
+			js.id = id;
+			js.src = "https://platform.twitter.com/widgets.js";
+			fjs.parentNode.insertBefore(js, fjs);
+		  
+			t._e = [];
+			t.ready = function(f) {
+			  t._e.push(f);
+			};
+		  
+			return t;
+		  }(document, "script", "twitter-wjs"));</script>
 	</body>
 	</html>
